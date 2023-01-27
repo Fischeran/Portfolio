@@ -1,0 +1,31 @@
+.header {
+    background-color: rgb(141, 223, 18);
+    height: 80px;
+    width: 100%;
+    z-index: var(--z-fixed);
+    top: 0;
+    position: fixed; 
+
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(20, 8, 8);
+    
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
