@@ -5,13 +5,14 @@ import "./Header.css"
 function Header() {
 
     return (
+        <div className="container">
         <div className="header row-md">
            <nav className="nav row">
-                    <div>
+                    <div className="col-2">
                         <p>Alex Fischer</p>
                     </div>
                     
-                    <div className="navBut">
+                    <div className="navBut col-4">
                         <a href="#" className="navBar">Home</a>
                         <a href="#" className="navBar">About</a>
                         <a href="#" className="navBar">Skills</a>
@@ -20,6 +21,8 @@ function Header() {
                     </div>    
             </nav>    
         </div>
+        </div>
+
     )
 }
 
