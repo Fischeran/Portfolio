@@ -4,6 +4,7 @@ import me from "./images/adventureTime.png"
 
 
 function GreenIntro() {
+    
     return (
       <div className="container">  
         <div className="row-lg mainSec" style={{backgroundColor: "rgb(141, 223, 18)" , padding: "150px"}}>

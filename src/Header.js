@@ -6,8 +6,8 @@ function Header() {
 
     return (
         <div className="container">
-        <div className="header row-md">
-           <nav className="nav row">
+        
+           <nav className="nav row-md header">
                     <div className="col-2">
                         <p>Alex Fischer</p>
                     </div>
@@ -20,7 +20,7 @@ function Header() {
                         <a href="#" className="navBar">Contact</a>
                     </div>    
             </nav>    
-        </div>
+        
         </div>
 
     )
