@@ -1,13 +1,9 @@
 .header {
     background-color: rgb(141, 223, 18);
-    height: 80px;
     width: 100%;
     z-index: var(--z-fixed);
-    top: 0;
     position: fixed; 
-    padding: 0;
-    overflow-x: hidden;
-    margin: 0px
+   
 }
 
 .nav {
@@ -17,6 +13,7 @@
     align-items: center;
     color: rgb(20, 8, 8);
     
+    
 }
 
 a {
@@ -24,10 +21,14 @@ a {
     color: var(--white-color);
 }
 
-.navBar {
+.navBut {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     
+}
+
+p {
+    padding:15px
 }

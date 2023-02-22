@@ -5,8 +5,10 @@ import GreenIntro from "./GreenIntro";
 function App() {
   return (
   <>
+  
   <Header />
   <GreenIntro />
+  
   </>
   )
 }
