@@ -9,10 +9,10 @@ function Header() {
         
            <nav className="nav row-md header">
                     <div className="col-2">
-                        <p>Alex Fischer</p>
+                        <p style={{marginTop: "15px", fontSize: "40px"}}>Alex Fischer</p>
                     </div>
                     
-                    <div className="navBut col-4">
+                    <div className="navBut col-4" style={{fontSize: "20px"}}>
                         <a href="#" className="navBar">Home</a>
                         <a href="#" className="navBar">About</a>
                         <a href="#" className="navBar">Skills</a>
