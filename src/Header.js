@@ -5,7 +5,7 @@ import "./Header.css"
 function Header() {
 
     return (
-        <div className="container">
+        <div className="container-fluid">
         
            <nav className="nav row-md header">
                     <div className="col-2">

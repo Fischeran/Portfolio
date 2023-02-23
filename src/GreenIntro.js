@@ -6,19 +6,22 @@ import me from "./images/adventureTime.png"
 function GreenIntro() {
     
     return (
-      <div className="container">  
-        <div className="row-lg mainSec" style={{backgroundColor: "rgb(141, 223, 18)" , padding: "150px"}}>
-           <div className="col-xs-6">
-                <p>Welcome!</p>
-                <a href="#">Let me show you around</a>
-                <img src={arrow} className="arrow" style={{maxWidth: "3%"}} />
+      <div className="container-fluid">  
+        <div className="row mainSec" style={{backgroundColor: "rgb(141, 223, 18)" , padding: "150px",}}>
+           <div className="col">
+                <p style={{marginLeft: "35px", fontSize: "100px"}}>Welcome!</p>
+            
+                <p style={{marginLeft: "45px", fontSize: "50px"}}>Let me show you around 
+                <img src={arrow} className="arrow" style={{maxWidth: "7%", marginLeft: "80px"}} /></p>
+                
+                
             </div> 
             
-            <div className="col-xs-6">
-                <img src={me} style={{maxWidth: "30%"}} />
+            <div className="col">
+                <img src={me} style={{maxWidth: "80%"}} />
             </div>
         </div>
-        </div>
+      </div>
     )
 
 
