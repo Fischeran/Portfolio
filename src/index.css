@@ -24,4 +24,11 @@ code {
   overflow: hidden;
 }
 
+.arrow {
+  transition: transform 1s;
+}
+
+.arrow-trans:hover .arrow {
+  transform: rotate(450deg);
+  }
  

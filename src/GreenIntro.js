@@ -7,13 +7,14 @@ function GreenIntro() {
     
     return (
       <div className="container-fluid">  
-        <div className="row mainSec" style={{backgroundColor: "rgb(141, 223, 18)" , padding: "150px",}}>
+        <div className="row mainSec" style={{backgroundColor: "rgb(141, 223, 18)" , padding: "150px", marginTop: "100px", height: "920px"}}>
            <div className="col">
-                <p style={{marginLeft: "35px", fontSize: "100px"}}>Welcome!</p>
-            
-                <p style={{marginLeft: "45px", fontSize: "50px"}}>Let me show you around 
-                <img src={arrow} className="arrow" style={{maxWidth: "7%", marginLeft: "80px"}} /></p>
-                
+                <p className="welc" style={{marginLeft: "35px", fontSize: "85px", paddingBottom: "0"}}>Welcome!</p>
+
+                <a href="/" className="arrow-trans">
+                <p style={{marginLeft: "45px", fontSize: "60px", paddingTop: "0"}}>Let me show you around 
+                <img src={arrow} className="arrow" style={{maxWidth: "10%", marginLeft: "80px"}} /></p>
+                </a>
                 
             </div> 
             
