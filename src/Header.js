@@ -14,7 +14,7 @@ function Header() {
                     
                     <div className="navBut col-4" style={{fontSize: "20px"}}>
                         <a href="#" className="navBar">Home</a>
-                        <a href="#" className="navBar">About</a>
+                        <a href="#About" className="navBar">About</a>
                         <a href="#" className="navBar">Skills</a>
                         <a href="#" className="navBar">Portfolio</a>
                         <a href="#" className="navBar">Contact</a>

@@ -5,7 +5,8 @@ function About () {
 
     return (
         <section>
-            <div className="container-fluid" style={{padding: "150px", marginTop: "0px", height: "920px", paddingTop: "50px"}}>
+            <div className="container-fluid About" id="About" style={{padding: "150px", marginTop: "0px", height: "920px", paddingTop: "50px"}}>
+                <div className="aboutSection">
                 <h1 className="row aboutHeader">About</h1>
                 <div className="row">
                     <div className="col aboutMe">
@@ -20,6 +21,7 @@ function About () {
                     <div className="col profilePadding">
                         <img className="profilePic" src={profile} />
                     </div>
+                </div>
                 </div>
             </div>
         </section>
