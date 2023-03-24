@@ -64,3 +64,12 @@ code {
   justify-content: center;
   margin-top: 0%;
 }
+
+.period {
+  width: 50%
+}
+
+.periodD {
+  display: flex;
+  justify-content: space-evenly;
+}
