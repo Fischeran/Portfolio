@@ -50,6 +50,10 @@ code {
   padding-left: 400px;
 }
 
+.About {
+  margin-bottom: 0px;
+}
+
 .aboutMe {
   padding-top: 60px;
   padding-left: 100px;
@@ -63,13 +67,20 @@ code {
   display: flex;
   justify-content: center;
   margin-top: 0%;
+  margin-bottom: 80px;
 }
 
 .period {
-  width: 50%
+  width: 100%;
+  height: 70%
+}
+
+.periodFlexText {
+  
+  width: 600px
 }
 
 .periodD {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }

@@ -5,7 +5,7 @@ function About () {
 
     return (
         <section>
-            <div className="container-fluid About" id="About" style={{padding: "150px", marginTop: "0px", height: "920px", paddingTop: "50px"}}>
+            <div className="container-fluid About" id="About" style={{padding: "150px", marginTop: "0px", height: "920px", paddingTop: "50px", paddingBottom: "0px"}}>
                 <div className="aboutSection">
                 <h1 className="row aboutHeader">About</h1>
                 <div className="row">
