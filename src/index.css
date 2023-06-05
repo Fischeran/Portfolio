@@ -32,7 +32,7 @@ code {
   transform: rotate(450deg);
   }
  
-.aboutHeader {
+.aboutHeader , .skillsHeader{
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -109,6 +109,11 @@ code {
 }
 
 .movies {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstRowFrontEnd , .secondRowFrontEnd , .firstRowBack , .nonFirstRow{
   display: flex;
   justify-content: space-evenly;
 }

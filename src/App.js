@@ -3,6 +3,7 @@ import Header from "./Header";
 import GreenIntro from "./GreenIntro";
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
   <Header />
   <GreenIntro />
   <About />
+  <Skills />
   <Projects />
   </>
   )
