@@ -112,8 +112,32 @@ code {
   display: flex;
   justify-content: space-evenly;
 }
+ 
+.workingPicture {
+  width: 100%;
+}
 
-.firstRowFrontEnd , .secondRowFrontEnd , .firstRowBack , .nonFirstRow{
+.skillsCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.firstRowFrontEnd, .firstRowBack , .nonFirstRow {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.i1 {
+  margin-left: 10px;
+}
+
+.i2 {
+  margin-left: 20px;
+}
+
+.frontRow , .backRow, .nonRow {
+  width: 50%;
 }
