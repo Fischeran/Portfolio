@@ -168,5 +168,22 @@ code {
   margin-left: 320px;
 }
 
+.footer {
+  background: #fffaf2;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  
+}
 
+.foot {
+  display: flex;
+  justify-content: space-around;
+}
 
+.port {
+    display: flex;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
