@@ -32,7 +32,7 @@ code {
   transform: rotate(450deg);
   }
  
-.aboutHeader , .skillsHeader{
+.aboutHeader , .skillsHeader, .contactHead{
   display: flex;
   justify-content: center;
   margin-top: 0;
@@ -124,6 +124,18 @@ code {
   justify-content: space-evenly;
 }
 
+.myInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-left: 200px;
+}
+
+.touch {
+  padding-left: 13px;
+}
+
 .firstRowFrontEnd, .firstRowBack , .nonFirstRow {
   display: flex;
   justify-content: space-evenly;
@@ -141,3 +153,20 @@ code {
 .frontRow , .backRow, .nonRow {
   width: 50%;
 }
+
+.email {
+  margin-left: 20px;
+}
+
+.message {
+  width: 400px;
+  margin-top: 20px;
+}
+
+.button {
+  margin-top: 20px;
+  margin-left: 320px;
+}
+
+
+

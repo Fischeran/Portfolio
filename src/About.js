@@ -19,7 +19,7 @@ function About () {
                         </p>
                     </div>
                     <div className="col profilePadding">
-                        <img className="profilePic" src={profile} />
+                        <img alt="Website developer" className="profilePic" src={profile} />
                     </div>
                 </div>
                 </div>
