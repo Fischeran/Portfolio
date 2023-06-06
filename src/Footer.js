@@ -1,4 +1,6 @@
 import React from "react";
+import github from "./images/glogo2.png"
+import linked from "./images/linked.png"
 
 function Footer () {
 
@@ -9,7 +11,7 @@ function Footer () {
             <h4 style={{marginLeft: "10px"}}>Alex Fischer</h4>
             <p>Portfolio Website</p>
         </div>
-        <div className="col port">
+        <div className="col port explorediv">
         <h4 href="#Home">Explore</h4>
                         <a href="#About">About</a>
                         <a href="#Skills">Skills</a>
@@ -18,7 +20,10 @@ function Footer () {
         </div>
         <div className="col port socials">
             <h4>Socials</h4>
-            
+            <div className="logos">
+            <a href="https://github.com/Fischeran" className="githublogo"><img src={github} alt="github logo" className="glogo" /></a>
+            <a href="https://www.linkedin.com/in/alex-fischer-fisheran/" className="linkedlogo"><img src={linked} alt="linked In logo" className="glogo" /></a>
+            </div>
         </div>
         </div>  
         </footer>

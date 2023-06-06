@@ -18,8 +18,8 @@ function Contact () {
                         <div className="textBoxesRow">
                             <form>
                                 <div className="nameMail">
-                                <input type="text" name="name" value="name" className="name"></input>
-                                <input type="text" name="email" value="e-mail" className="email"></input>
+                                <input type="text" name="name" className="name"></input>
+                                <input type="text" name="email" className="email"></input>
                                 </div>
                                 <div className="message rounded-0">
                                 <textarea id="message" name="message" className="message"></textarea>

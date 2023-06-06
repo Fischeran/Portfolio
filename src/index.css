@@ -187,3 +187,25 @@ code {
     justify-content: center;
     flex-direction: column;
 }
+
+.glogo {
+  width: 60%;
+}
+
+.logos {
+  display: flex;
+  flex-direction: row;
+  padding-top: 10px;
+}
+
+.githublogo {
+  padding-left: 0px;
+}
+
+.linkedlogo {
+  padding-right: 300px;
+}
+
+.explorediv {
+  padding-top: 40px;
+}
