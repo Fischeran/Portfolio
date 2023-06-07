@@ -22,13 +22,13 @@ function Projects() {
                     </p>
                 </div>
                 <div className="col-3">
-                    <img alt="Periodic Tables resteraunt reservation app" src={periodicTables} className="period" />
+                   <a href="https://periodic-tables-front-end-f0kb.onrender.com/" target="_blank" rel="noreferrer"><img alt="Periodic Tables resteraunt reservation app" src={periodicTables} className="period" /></a>
                 </div>
             </div>
 
             <div className="row flashcardApp">
                 <div className="col-3" style={{}}>
-                    <img alt="Flash card Application used to help students study" src={Flash} className="flash" />
+                <a href="https://thinkful-flash.vercel.app/" target="_blank" rel="noreferrer"><img alt="Flash card Application used to help students study" src={Flash} className="flash" /></a>
                 </div>
                 <div className="col-3">
                     <h4 style={{paddingLeft:"13px"}}>Flash: Study solutions</h4>
@@ -46,7 +46,7 @@ function Projects() {
                     <p><b>Built Using:</b>Node.js, React, Express, PostgreSQL, Knex</p>
                 </div>
                 <div className="col-3">
-                    <img alt="List of movies shows with options to find out where they are playing" src={loveMovies} className="movie" />
+                <a href="https://welovemovies-front-end.onrender.com/" target="_blank" rel="noreferrer"><img alt="List of movies shows with options to find out where they are playing" src={loveMovies} className="movie" /></a>
                 </div>
             </div>
 

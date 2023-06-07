@@ -21,8 +21,8 @@ function Footer () {
         <div className="col port socials">
             <h4>Socials</h4>
             <div className="logos">
-            <a href="https://github.com/Fischeran" className="githublogo"><img src={github} alt="github logo" className="glogo" /></a>
-            <a href="https://www.linkedin.com/in/alex-fischer-fisheran/" className="linkedlogo"><img src={linked} alt="linked In logo" className="glogo" /></a>
+            <a href="https://github.com/Fischeran" className="githublogo" target="_blank" rel="noreferrer"><img src={github} alt="github logo" className="glogo" /></a>
+            <a href="https://www.linkedin.com/in/alex-fischer-fisheran/" className="linkedlogo" target="_blank" rel="noreferrer"><img src={linked} alt="linked In logo" className="glogo" /></a>
             </div>
         </div>
         </div>  
