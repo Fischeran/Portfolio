@@ -8,12 +8,12 @@ function Projects() {
 
     return (
         <section className="container-fluid " id="Projects">
-            <div className="row">
+            <div className="row-sm" style={{paddtingTop: "300px"}}>
                 <h2 className="projectHeader">Projects</h2>
             </div>
 
             <div className="row periodD">
-                <div className="col-3">
+                <div className="col-3"> 
                     <h4 style={{paddingLeft: "13px"}}>Periodic Tables: Resteraunt Reservation Web App</h4>
                     <p className="periodFlexText">Full-Stack Web application that helps Resteraunt owners book and reservations and manage seating.
                        <br></br>

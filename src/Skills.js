@@ -4,12 +4,12 @@ import animatedDeveloper from "./images/animatedDeveloper.avif"
 function Skills () {
 
     return (
-        <section className="container-fluid" id="Skills">
+        <section className="container-fluid" id="Skills" style={{padding: "140px"}}>
         
             <div className="row">
                 <h2 className="skillsHeader">Skills</h2>
             </div>
-        <div className="row">
+        <div className="row" style={{paddingTop: "50px"}}>
             <div className="col-6 skillsCol">
             <div className="frontRow">
                 <h4 style={{marginLeft: "10px"}}>Front End</h4>
