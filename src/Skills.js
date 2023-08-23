@@ -14,36 +14,36 @@ function Skills () {
             <div className="frontRow">
                 <h4 style={{marginLeft: "10px"}}>Front End</h4>
                 <div className="firstRowFrontEnd">
-                <span>React</span>
-                <span>HTML5</span>
-                <span>JavaScript</span>
-                <span>Bootstrap</span>
-                <span>CSS3</span>
+                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2 m-2">React</span>
+                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HTML5</span>
+                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JavaScript</span>
+                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Bootstrap</span>
+                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">CSS3</span>
                 </div>
-                <div className="secondRowFrontEnd">
-                <span className="i1">jQuery</span>
-                <span className="i1">JSON</span>
-                <span className="i2">XML</span>
+                <div className="secondRowFrontEnd p-2">
+                <span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">jQuery</span>
+                <span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JSON</span>
+                <span className="i2 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">XML</span>
                 </div>
             </div>
             <div className="backRow">
                 <h4 style={{marginLeft: "10px"}}>Back End</h4>
                 <div className="firstRowBack">
-                    <span>Node JS</span>
-                    <span>Express</span>
-                    <span>PostgreSQL</span>
-                    <span>RESTful API's</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Node JS</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Express</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">PostgreSQL</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">RESTful API's</span>
                     
                 </div>
             </div>
             <div className="nonRow">
                 <h4 style={{marginLeft: "10px"}}>Non-Developement Related</h4>
                 <div className="nonFirstRow">
-                    <span>Google Ads</span>
-                    <span>Payroll</span>
-                    <span>HR</span>
-                    <span>Onboarding</span>
-                    <span>Excel</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Google Ads</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Payroll</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HR</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Onboarding</span>
+                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Excel</span>
                 </div>
             </div>
             </div>
