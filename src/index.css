@@ -136,10 +136,9 @@ code {
   padding-left: 13px;
 }
 
-.firstRowFrontEnd, .firstRowBack , .nonFirstRow {
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
+.firstRowFrontEnd, .firstRowBack , .nonFirstRow , .secondRowFrontEnd {
+  margin-bottom: var(--mb-3);
+  padding: 0.25rem 0.5rem;
 }
 
 .i1 {

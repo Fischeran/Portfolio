@@ -14,26 +14,40 @@ function Skills () {
             <div className="frontRow">
                 <h4 style={{marginLeft: "10px"}}>Front End</h4>
                 <div className="firstRowFrontEnd">
-                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2 m-2">React</span>
-                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HTML5</span>
-                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JavaScript</span>
-                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Bootstrap</span>
-                <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">CSS3</span>
+                <table>
+                        <tr>
+                <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2 m-2">React</span></th>
+                <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HTML5</span></th>
+                <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JavaScript</span></th>
+                <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Bootstrap</span></th>
+                <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">CSS3</span></th>
+                        </tr>
+                </table>        
                 </div>
+                
                 <div className="secondRowFrontEnd p-2">
-                <span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">jQuery</span>
-                <span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JSON</span>
-                <span className="i2 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">XML</span>
+                <table> 
+                    <tr>
+                <th><span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">jQuery</span></th>
+                <th><span className="i1 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">JSON</span></th>
+                <th><span className="i2 bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">XML</span></th>
+                    </tr>
+
+                </table>
                 </div>
+
             </div>
             <div className="backRow">
                 <h4 style={{marginLeft: "10px"}}>Back End</h4>
                 <div className="firstRowBack">
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Node JS</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Express</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">PostgreSQL</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">RESTful API's</span>
-                    
+                    <table>
+                        <tr>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Node JS</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Express</span></th>
+                   <th> <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">PostgreSQL</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">RESTful API's</span></th>
+                        </tr>
+                    </table>
                 </div>
             </div>
             <div className="nonRow">
