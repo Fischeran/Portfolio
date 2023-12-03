@@ -11,7 +11,7 @@ function GreenIntro() {
            <div className="col">
                 <p className="welc" style={{marginLeft: "35px", fontSize: "85px", paddingBottom: "0"}}>Welcome!</p>
 
-                <a href="#About" className="arrow-trans">
+                <a href="#About" className="arrow-trans" style={{whiteSpace: "nowrap"}}>
                 <p style={{marginLeft: "45px", fontSize: "60px", paddingTop: "0"}}>Let me show you around 
                 <img alt="arrow point toward animation of the website developer" src={arrow} className="arrow" style={{maxWidth: "10%", marginLeft: "80px"}} /></p>
                 </a>
