@@ -53,11 +53,13 @@ function Skills () {
             <div className="nonRow">
                 <h4 style={{marginLeft: "10px"}}>Non-Developement Related</h4>
                 <div className="nonFirstRow">
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Google Ads</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Payroll</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HR</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Onboarding</span>
-                    <span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Excel</span>
+                    <table>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Google Ads</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Payroll</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">HR</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Onboarding</span></th>
+                    <th><span className="bg-secondary bg-opacity-11 border rounded p-1 text-white m-2">Excel</span></th>
+                    </table>
                 </div>
             </div>
             </div>

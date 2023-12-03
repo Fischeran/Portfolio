@@ -139,6 +139,7 @@ code {
 .firstRowFrontEnd, .firstRowBack , .nonFirstRow , .secondRowFrontEnd {
   margin-bottom: var(--mb-3);
   padding: 0.25rem 0.5rem;
+  white-space: nowrap;
 }
 
 .i1 {
